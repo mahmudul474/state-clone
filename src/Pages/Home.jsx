@@ -11,7 +11,7 @@ function Home() {
             <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
            
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-black">
           
           </h2>
         </div>
@@ -19,7 +19,7 @@ function Home() {
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           <form className="space-y-6" action="#" method="POST">
             <div>
-              <label htmlFor="email" className="block text-left text-sm font-medium  text-gray-900">
+              <label htmlFor="email" className="block text-left text-sm font-medium  text-black">
                 Passport Number
               </label>
               <div className="mt-2">
@@ -29,12 +29,12 @@ function Home() {
                   type="text"
                   placeholder=" example: A********"
                   required
-                  className="block bg-white w-full p-2 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block  uppercase font-bold bg-white w-full p-2 rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
             <div>
-              <label htmlFor="email" className="block text-left text-sm font-medium  text-gray-900">
+              <label htmlFor="email" className="block text-left text-sm font-medium  text-black">
                 Nid  Number 
               </label>
               <div className="mt-2">
@@ -45,12 +45,12 @@ function Home() {
                   placeholder=" example: 3459232349"
                   
                   required
-                  className="block bg-white w-full p-2 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block font-bold bg-white w-full p-2 rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
             <div>
-              <label htmlFor="email" className="block text-left text-sm font-medium  text-gray-900">
+              <label htmlFor="email" className="block text-left text-sm font-medium  text-black">
                 Your Name  
               </label>
               <div className="mt-2">
@@ -61,7 +61,7 @@ function Home() {
                   placeholder=" example: Jone Doe"
                   
                   required
-                  className="block bg-white w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm p-2 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block font-bold bg-white w-full rounded-md border-0 py-1.5 text-black shadow-sm p-2 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
