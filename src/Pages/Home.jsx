@@ -1,6 +1,33 @@
 import React, { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 function Home() {
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState("");
+
+  const location = useLocation();
+  const navigate = useNavigate();
+
+
+
+      const fromsubmit=(e)=>{
+e.preventDefault();
+ const from=e.target
+  const passportnumber =from.passport.value
+  const idnumber =from.nid.value
+  const name= from.name.value
+
+console.log(passportnumber, name, idnumber)
+if(passportnumber=="A06722935"){
+  navigate("/alamineyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c")
+}else if(passportnumber=="EM0094466"){
+     navigate("/alaleyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c")
+}else{
+setShow("invalid credentials")
+}
+
+      }
+
+
+
     return (
         <div className= " pb-12  overflow-y-hidden w-full"  style={{  
             backgroundPosition:"center",
@@ -17,7 +44,7 @@ function Home() {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6" action="#" method="POST">
+         <form className="space-y-6"  onSubmit={fromsubmit}>
             <div>
              
               <div className="mt-2">
@@ -35,9 +62,9 @@ function Home() {
               
               <div className="mt-2">
                 <input
-                  id="email"
-                  name="email"
-                  type="email"
+                  id="nid"
+                  name="nid"
+                  type="text"
                   placeholder="Type your NID card number"
                   
                   required
@@ -69,14 +96,16 @@ function Home() {
              Visa Check 
               </button>
             </div>
-          </form>
-
-          <p className=" text-center text-sm text-gray-500">
-            {/* Not a member?{' '} */}
-            <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-              {/* Start a 14 day free trial */}
-            </a>
+          </form> :  
+         
+          {
+            show && <p className=" text-center text-sm text-red-500">
+            {show}
+             
           </p>
+          }
+
+          
         </div>
       </div>
            
