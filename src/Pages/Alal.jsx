@@ -5,7 +5,7 @@ export default function Alal() {
     <div className='bg-white m-auto flex justify-center items-center flex-col '>
         <img className="rounded w-36 h-36 object-contain" src="https://i.ibb.co/KykJJqF/Whats-App-Image-2024-05-11-at-21-21-40-a00d15f4.jpg" alt="Extra large avatar"/>
         <div className='flex flex-col justify-center items-center'>
-            <h1 className='font-bold text-2xl uppercase'> MD ALAL UDDIN 
+            <h1 className='font-bold text-2xl uppercase'> MOHAMMAD ALAL MIAH
 </h1>
 <h4>PASSPORT:EM0094466</h4>
         </div>
