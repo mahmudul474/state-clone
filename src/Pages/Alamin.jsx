@@ -19,9 +19,9 @@ export default function Alamin() {
         </div>
         <div>
             
-<img class="h-auto max-w-lg rounded-lg" src="https://i.ibb.co/x7qRBJf/MD-AL-AMIN-ISLAM-APPLICATION-1-1-page-0001.jpg" alt="image description" />
+<img class="h-auto max-w-lg rounded-lg" src="https://i.ibb.co/FXYTskP/MD-AL-AMIN-ISLAM-APPLICATION-1-page-0001.jpg" alt="image description" />
 
-<a className='my-4 py-5' href="https://drive.google.com/file/d/1dubEROq818yyySPYHNqGNFm2DaiwgeQC/view?usp=sharing" download><button className="btn btn-wide">Download File</button></a>
+<a className='my-4 py-5' href="https://drive.google.com/file/d/1Hzb45DRdVpii9zzQykmhMfLUkQi3hDNf/view?usp=sharing" download><button className="btn btn-wide">Download File</button></a>
 
         </div>
     </div>
