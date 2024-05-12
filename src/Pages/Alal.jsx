@@ -16,6 +16,13 @@ export default function Alal() {
 <a className='my-4 py-5' href="https://drive.google.com/file/d/1QJx0jLGw9_1tMBGX0SkFBRIkjTU7213q/view?usp=sharing" download><button className="btn btn-wide">Download File</button></a>
 
         </div>
+        <div>
+            
+<img class="h-auto max-w-lg rounded-lg" src="https://i.ibb.co/fd8yn5R/MOHAMMAD-ALAL-MIAH-APPLICATION-1-page-0001.jpg" alt="image description" />
+
+<a className='my-4 py-5' href="https://drive.google.com/file/d/1AJaXVlg5ZYtIRoYn8GHK7KD0ENwenhve/view?usp=sharing" download><button className="btn btn-wide">Download File</button></a>
+
+        </div>
     </div>
   )
 }
